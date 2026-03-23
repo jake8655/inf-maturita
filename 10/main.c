@@ -3,8 +3,6 @@
 #include <stdlib.h>
 #include <string.h>
 
-#define PLUS 0x2b
-
 int main()
 {
     FILE *f1 = fopen("vyraz.txt", "r");
@@ -28,7 +26,7 @@ int main()
         int sum = 0;
         for (i = 0; line[i] != 0; i++)
         {
-            if (line[i] == PLUS)
+            if (line[i] == '+')
             {
                 if (i == 0)
                 {
