@@ -48,5 +48,7 @@ int main()
 
     printf("Same: %d\n", same);
 
+    fclose(f);
+
     return 0;
 }
