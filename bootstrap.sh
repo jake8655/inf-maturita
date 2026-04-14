@@ -21,8 +21,8 @@ EOF
 
 # Create Makefile
 cat > "$next/Makefile" << 'EOF'
-all:
-	gcc -Wall -o main main.c
+main: main.c
+	gcc -Wall -Wextra -o main main.c
 	./main
 EOF
 
