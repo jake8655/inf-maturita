@@ -1,3 +1,2 @@
 main: main.c
-	gcc -Wall -Wextra -o main main.c
-	./main
+	gcc -Wall -Wextra -pedantic -std=c11 -o main main.c
