@@ -64,8 +64,8 @@ int main()
 
     dump_points(points, points_size);
 
-    int max_x, max_y = 0;
-    int min_x, min_y = INT_MAX;
+    int max_x = 0, max_y = 0;
+    int min_x = INT_MAX, min_y = INT_MAX;
 
     for (int i = 0; i < points_size; i++)
     {
