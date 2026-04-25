@@ -1,0 +1,1 @@
+/home/jake/Desktop/projects/school/sep-maturita/AGENTS.md
